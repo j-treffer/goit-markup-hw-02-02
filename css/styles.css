@@ -11,7 +11,6 @@ ul,ol {
 
 a{
     text-decoration: none;
-    font-style: normal;
 }
 
 button {
@@ -72,6 +71,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -101,7 +101,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
 }
 
@@ -140,14 +139,15 @@ background-color: #f4f4fd;
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
-
+text-align: center;
+text-transform: capitalize;
 }
 
 .team-list {
-
+background-color: #FFFFFF
 }
 
 .team-subtitle {
@@ -168,6 +168,45 @@ color: #434455;
 
 /* #endregion team */
 
+
+
+/* #region protfolio */
+.portfolio-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.products {
+    background: #fff;
+}
+
+.product-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.product-desc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion protfolio */
+
+
+
 /* #region footer */
 .footer{
 background-color: #2e2f42;
@@ -176,7 +215,7 @@ background-color: #2e2f42;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
